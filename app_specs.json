@@ -1,0 +1,71 @@
+{
+  "app_info": {
+    "name": "SSL Hybrid Backtester",
+    "version": "1.0.0",
+    "build_number": 1,
+    "description": "Professional Backtesting Tool for SSL Hybrid NNFX Strategy on XAUUSD (Gold)",
+    "author": "Mihkel00 & Contributors"
+  },
+  "features": {
+    "core": [
+      "SSL Hybrid Strategy Implementation",
+      "Real XAUUSD Historical Data (Daily & 4H)",
+      "Customizable Strategy Parameters",
+      "Complete Backtest Engine",
+      "Trade-by-Trade Analysis",
+      "Performance Metrics Dashboard"
+    ],
+    "indicators": [
+      "SSL1 - Baseline (Primary Trend)",
+      "SSL2 - Confirmation Filter",
+      "SSL3 - Exit Signal",
+      "ATR - Volatility Measurement"
+    ],
+    "moving_averages": [
+      "SMA - Simple Moving Average",
+      "EMA - Exponential Moving Average",
+      "HMA - Hull Moving Average",
+      "DEMA - Double Exponential Moving Average",
+      "WMA - Weighted Moving Average"
+    ],
+    "data": {
+      "timeframes": ["1D (Daily)", "4H (4-Hourly)"],
+      "instruments": ["XAUUSD (Gold)"]
+    }
+  },
+  "metrics": {
+    "included": [
+      "Win Rate (%)",
+      "Profit Factor",
+      "Total Profit ($)",
+      "Max Drawdown (%)",
+      "Sharpe Ratio",
+      "Return on Risk",
+      "Trade Count",
+      "Average Trade Duration"
+    ]
+  },
+  "system_requirements": {
+    "android_min": "API 21 (Android 5.0)",
+    "android_recommended": "API 28+ (Android 9.0+)",
+    "ram_min": "2GB",
+    "ram_recommended": "4GB+",
+    "storage": "50MB available space",
+    "internet": "Not required (fully offline)"
+  },
+  "permissions": [
+    "INTERNET - For future cloud features",
+    "READ_EXTERNAL_STORAGE - For CSV import",
+    "WRITE_EXTERNAL_STORAGE - For CSV export"
+  ],
+  "future_features": [
+    "Walk-Forward Analysis",
+    "Monte Carlo Simulation",
+    "Multi-Strategy Comparison",
+    "Live Trading Integration",
+    "Cloud Sync",
+    "Real-time Alerts",
+    "Portfolio Analysis",
+    "Risk Management Tools"
+  ]
+}
